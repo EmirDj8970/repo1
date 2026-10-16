@@ -1,7 +1,141 @@
 void main() {
     Scanner scanner = new Scanner(System.in);
 
-// 1.
+
+
+    //1.
+
+//    int i = 1;
+//    while(i < 1000) {
+//        i *= 10;
+//        System.out.println(i);
+//    }
+
+
+    //2.
+
+//    for(int i = 1; i <= 1000; i *= 10)
+//        System.out.println(i);
+
+    //3.1
+
+//    int i = 1;
+//    int b = scanner.nextInt();
+//    while(i != b + 1) {
+//        System.out.println(i);
+//        i += 1;
+//    }
+
+    //3.2
+
+//    int i = 1;
+//    int b = scanner.nextInt();
+//    do {
+//        System.out.println(i);
+//        i++;
+//    } while (i < b + 1);
+
+    //3.3
+
+//    int a = scanner.nextInt();
+//    for(int i = 1; i < a + 1; i += 1)
+//        System.out.println(i);
+
+    //4.
+
+//    for(int i = 1; i < 2; i *= 1)
+//        System.out.println(i);
+
+    //5.1
+
+//    int a = scanner.nextInt();
+//    int i = 1;
+
+//    while (i <= a) {
+//        if (i % 2 == 0) {
+//            System.out.print(i + " ");
+//        }
+//        i++;
+//    }
+
+    //5.2
+
+//    int a = scanner.nextInt();
+//    int i = 1;
+
+//    if (a >= 1) { // Проверка, чтобы не выводить ничего, если n <= 0
+//        do {
+//            if (i % 2 == 0) {
+//                System.out.print(i + " ");
+//            }
+//            i = i + 1;
+//        } while (i <= a);
+//    }
+
+    //5.3
+
+//    int a = scanner.nextInt();
+//
+//    for (int i = 1; i <= a; i++) {
+//        if (i % 2 == 0) {
+//            System.out.print(i + " ");
+//        }
+//    }
+
+    //6.1
+
+//    int a = scanner.nextInt();
+//    int i = 1;
+//    while (i <= a) {
+//        if (i % 2 != 0) {
+//            System.out.print(i + " ");
+//        }
+//        i = i + 1;
+//    }
+
+    //6.2
+
+//    int a = scanner.nextInt();
+//    int i = 1;
+//
+//    if (a >= 1) {
+//        do {
+//            if (i % 2 != 0) {
+//                System.out.print(i + " ");
+//            }
+//            i = i + 1;
+//        } while (i <= a);
+//    }
+
+    //6.3
+
+//    int a = scanner.nextInt();
+//
+//    for (int i = 1; i <= a; i++) {
+//        if (i % 2 != 0) {
+//            System.out.print(i + " ");
+//        }
+//    }
+
+    //7.
+
+//    int i = scanner.nextInt();
+//
+//    if(i <= 20){
+//        if(i % 5 == 0 && i % 3 == 0)
+//            System.out.println("FizzBuzz");
+//        else if(i % 5 == 0)
+//            System.out.println("Buzz");
+//        else if(i % 3 == 0)
+//            System.out.println("Fizz");
+//        else
+//            System.out.println("None");
+//        }
+//    else
+//        System.out.println("Wrong number");
+
+
+    // 8.
 
 //    int a = 0000;
 //    int b = 3;
@@ -23,7 +157,7 @@ void main() {
 //    if (!c) {
 //        System.out.println("Card blocked.");}
 
-// 2.
+    // 9.
 
 //    int number = 4;
 //    int attempts = 5;
@@ -54,7 +188,7 @@ void main() {
 //        System.out.println("Правильный ответ: " + number);
 //    }
 
-// 3.
+    // 10.
 
 //    int posn = 0;
 //    int negan = 0;
@@ -91,7 +225,7 @@ void main() {
 //    System.out.println("Even numbers: " + evenn);
 //    System.out.println("Odd numbers: " + oddn);
 
-// 4.
+    // 11.
 
 //    System.out.println("==Simple ATM==");
 //    int a = 0000;
